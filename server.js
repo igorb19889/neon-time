@@ -32,10 +32,7 @@ app.post("/create-checkout-session", async (req, res) => {
         },
       ],
       mode: "payment",
-      // success_url: "http://localhost:5173/contact?payment=success",
-      // cancel_url: "http://localhost:5173/contact?payment=cancel",
-
-
+     
 
       success_url: "https://neon-time-ww3j.vercel.app/contact?payment=success",
       cancel_url:  "https://neon-time-ww3j.vercel.app/contact?payment=cancel",
@@ -44,11 +41,7 @@ app.post("/create-checkout-session", async (req, res) => {
 
 
 
-      // success_url: 'http://192.168.100.47:5173/contact?payment=success',
-      // cancel_url: 'http://192.168.100.47:5173/contact?payment=cancel',
-
-      // success_url: "http://192.168.100.47:5173/contact?payment=success#reservation_submit",
-      // cancel_url: "http://192.168.100.47:5173/contact?payment=cancel#reservation_submit",
+  
     });
 
 
