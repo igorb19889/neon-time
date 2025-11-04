@@ -60,9 +60,9 @@ app.post("/create-checkout-session", async (req, res) => {
 });
 
 
-app.listen(PORT, () => {
-  console.log(`⚡ Server Stripe pornit la http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`⚡ Server Stripe pornit la http://localhost:${PORT}`);
+// });
 
-// app.listen(PORT, '0.0.0.0', () => 
+// // app.listen(PORT, '0.0.0.0', () => 
 // console.log('⚡ Server Stripe pornit la http://0.0.0.0:4242'));
