@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #fff;
+  font-family: 'Fredoka', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Luckiest Guy', cursive;
+}
+/* /NOU */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0d0d0d;
+  border-bottom: 3px solid #ff3c78;
+  color: white;
+  position: relative;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.logo {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.8rem;
+  color: #ff3c78;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-nt {
+  background: linear-gradient(45deg, #ff3c78, #9c27b0);
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+ .nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-weight: 600;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.nav-links li a {
+  color: #00ff9d; /* verde neon deschis */
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00cc7a;
+}
+.nav-links li a.active {
+  color: white !important;
+  font-weight: 700;
+}
+
+/* Nav links - mobile dropdown */
+@media (max-width: 768px) {
+  .burger {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 56px;
+    right: 2rem;
+    background-color: #0d0d0d;
+    border: 2px solid #00ff9d;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    display: none;
+    width: 160px;
+    box-shadow: 0 0 10px #00ff9d;
+    z-index: 1000;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li a,
+  .nav-links li button.theme-toggle {
+    color: #00ff9d;
+    font-size: 1rem;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem 0;
+  }
+
+  .nav-links li a:hover,
+  .nav-links li button.theme-toggle:hover {
+    color: #00cc7a;
+  }
+
+}
+
+.neon-box {
+  text-shadow:
+    0 0 5px white,
+    0 0 10px white,
+    0 0 20px var(--yellow),
+    0 0 30px var(--yellow);
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 0, 0.2);
+}
+/* ///////////////////////// */
+
+.footer {
+  background-color: #1a1a1a;
+  color: #00ff9d;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer h3, .footer h4 {
+  margin-bottom: 0.5rem;
+  font-family: 'Luckiest Guy', cursive;
+  color: #9c27b0;
+}
+
+.footer p, .footer a {
+  margin: 0.2rem 0;
+  color: #00ff9d;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ffff00;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin: 0.3rem 0;
+}
+
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social-links li a {
+  color: var(--cyan);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links li a:hover {
+  color: var(--pink);
+  transform: scale(1.1);
+  text-shadow: 0 0 6px var(--pink);
+}

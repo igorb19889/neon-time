@@ -1,0 +1,32 @@
+.scroll-top {
+  position: fixed;
+  bottom: 2rem;
+  right:1.2rem;  /* mutat pe dreapta */
+  bottom: 7rem;
+  z-index: 1000;
+}
+
+.arrow-btn {
+  width: 50px;
+  height: auto;
+  font-size: 1rem;
+  background: #f404f0;  /* neon verde */
+  color: #0d0d0d;
+  border: none;
+  border-radius: 40%;
+  padding: 1rem;
+  cursor: pointer;
+  /* animation: neonPulse 1.5s infinite alternate; */
+  transition: background 0.3s, transform 0.3s;
+  color: white;
+}
+
+.arrow-btn:hover {
+  background: #04ef13;  /* neon albastru la hover */
+  transform: scale(1.1); /* mic efect de zoom */
+}
+
+/* @keyframes neonPulse {
+  0%, 100% { box-shadow: 0 0 5px currentColor, 0 0 10px currentColor; }
+  50% { box-shadow: 0 0 15px currentColor, 0 0 30px currentColor; }
+} */
