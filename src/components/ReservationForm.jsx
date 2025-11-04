@@ -34,7 +34,7 @@ export default function ReservationForm() {
   const [bookedTimes,     setBookedTimes    ] = useState({})   ;
   const [userMessage,     setUserMessage    ] = useState("")   ;
 
-  const [stripePaid,      setStripePaid     ] = useState(false); // ← adăugat pentru blocarea butonului
+  // const [stripePaid,      setStripePaid     ] = useState(false); // ← adăugat pentru blocarea butonului
   const [showConfetti, setShowConfetti      ] = useState(false); // Pentru efect WAW
 
   // const hours = Array.from({ length: 13 }, (_, i) => 9 + i).map(
@@ -352,7 +352,7 @@ const sendEmail = async (e) => {
 
     // 🔗 Link de anulare pentru proprietar
     // const cancelLink = `http://192.168.100.47:5173/cancel?docId=${docRef.id}&token=${cancelToken}`;
-    const cancelLink = `https://neon-time-ww3j.vercel.app/cancel?docId=${docRef.id}&token=${cancelToken}`;
+       const cancelLink = `https://neon-time-ww3j.vercel.app/cancel?docId=${docRef.id}&token=${cancelToken}`;
 
 
 
