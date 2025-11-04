@@ -352,7 +352,7 @@ const sendEmail = async (e) => {
 
     // 🔗 Link de anulare pentru proprietar
     // const cancelLink = `http://192.168.100.47:5173/cancel?docId=${docRef.id}&token=${cancelToken}`;
-    const cancelUrl = `https://neon-time-ww3j.vercel.app/cancel?docId=${docId}&token=${token}`;
+    const cancelLink = `https://neon-time-ww3j.vercel.app/cancel?docId=${docId}&token=${token}`;
 
 
     // 📨 Email către PROPRIETAR (cu link de anulare)
