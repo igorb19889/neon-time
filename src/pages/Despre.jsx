@@ -1,6 +1,6 @@
 import React from "react";
-import './Despre.css';
-import EmojiParticles from "./EmojiParticles";
+import './despre.css';
+// import EmojiParticles from "./EmojiParticles";
 
 export default function Despre() {
   return (
