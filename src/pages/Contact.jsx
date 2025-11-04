@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTicketAlt } from 'react-icons/fa'
 import { SiTiktok } from "react-icons/si";   // TikTok
 import emailjs from "@emailjs/browser";
 import { FaTicket } from "react-icons/fa6"; 
-import './Contact.css';
+import './contact.css';
 // import ReservationForm from "../components/ReservationForm";
 
 export default function Contact() {

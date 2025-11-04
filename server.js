@@ -66,7 +66,7 @@ import cors from "cors";
 const app = express();
 const PORT = 4242;
 
-const stripe = new Stripe("sk_test_51SCedsIASHHEeFIdl36PUlPeVXVjdSECaJa6vyov3eiQRC1MXy0yYkeQhpCAsX8OpY8Dw1oevCyHMTlSgIyXdhS000HCt0akB5", {
+const stripe = new Stripe("", {
   apiVersion: "2022-11-15",
 });
 
