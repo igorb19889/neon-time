@@ -1,0 +1,487 @@
+.reservation-form-neon input::placeholder,
+.reservation-form-neon textarea::placeholder {
+  color: #cccccc;
+}
+
+/* 
+.reservation-form-neon select {
+  width: 150px; 
+  text-align: center;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #ff3c78;
+  background: #1a1a1a;
+  color: #ffff00;
+  outline: none;
+} */
+
+/* .reservation-form-neon select:focus {
+  border-color: #00ff9d;
+  box-shadow: 0 0 10px #00ff9d;
+} */
+
+/* Center select-ul în container */
+/* .form-group select {
+  display: block;
+  margin: 0 auto 12px auto;
+} */
+
+/* ==================== Container general ==================== */
+/* .reservation-form-neon {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #0d0d0d;
+  border-radius: 20px;
+  color: #00fa75;
+  font-family: 'Fredoka', sans-serif;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+  margin-top: 50px;
+} */
+
+.reservation-form-neon {
+  max-width: 720px;
+  margin: 50px auto; /* Centrare orizontală și spațiu sus */
+  padding: 30px;
+  background: #0d0d0d;
+  border-radius: 20px;
+  color: #00fa75;
+  font-family: 'Fredoka', sans-serif;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+  display: flex;
+  flex-direction: column; /* stivuiește elementele */
+  align-items: center;    /* CENTRARE orizontală a tuturor copiilor */
+}
+
+
+
+
+
+
+/* Selectul */
+.form-group.time-select select {
+  width: 20px;
+  text-align-last: center; 
+  padding: 8px 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #ff3c78;
+  background: #1a1a1a;
+  color: #ffff00;
+  outline: none;
+}
+
+.form-group.time-select select:focus {
+  border-color: #00ff9d;
+  box-shadow: 0 0 10px #00ff9d;
+}
+
+
+.reservation-form-neon h3 {
+  text-align: center;
+  color: #ff3c78;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.reservation-form-neon h4 {
+  color: #00e5ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 27px;
+}
+
+
+/* ==================== Input & Textarea ==================== */
+.reservation-form-neon input[type="text"],
+.reservation-form-neon input[type="email"],
+.reservation-form-neon input[type="tel"],
+.reservation-form-neon input[type="number"],
+.reservation-form-neon select,
+.reservation-form-neon textarea {
+  width: 92%; /* Aici trebuie sa schimb*/
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 2px solid #e9fe01;
+  background: #1a1a1a;
+  color: #ffff00;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+  margin-bottom: 12px;
+}
+
+.reservation-form-neon input:focus,
+.reservation-form-neon select:focus,
+.reservation-form-neon textarea:focus {
+  border-color: #12f806;
+  box-shadow: 0 0 10px #00ff9d;
+}
+
+/* ==================== Children Counter ==================== */
+.children-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.children-counter button {
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  background: #ffff00;
+  color: #0d0d0d;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.children-counter button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ffff00;
+}
+
+.children-counter span {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
+/* ///////////////////  PACHET COPII /////////////////// */
+
+.children-package-card {
+  background: #222;
+  border: 2px solid #ff3c78;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(255, 60, 120, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.children-package-card h4 {
+  color: #00e5ff;
+  margin-bottom: 8px;
+  font-size: 30PX;
+}
+
+.children-package-card p {
+  color: #ef0707; /* Aici schimb culoarea Totala la suma: Pachet copii*/
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+
+.children-package-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(255, 60, 120, 0.6);
+}
+
+
+
+/* ////////////////////   Optiuni suplimentare/// */
+.neon-wrapper {
+  padding: 12px;
+  border: 2px solid #0486f0; 
+  border-radius: 14px;
+  position: relative;
+  margin: 15px auto;       /* centru pe orizontală */
+  width: 90%;              /* să ocupe majoritatea containerului */
+  display: flex;            /* ca să se păstreze layout intern */
+  flex-direction: column;
+  align-items: center;      /* centru conținut intern */
+}
+
+.neon-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  /* box-shadow: 0 0 10px #ff3c78, 0 0 20px #ff3c78; */
+  opacity: 0.6;
+  /* animation: neonPulse 1.5s infinite alternate; */
+  pointer-events: none;
+}
+.neon-wrapper:hover {
+    box-shadow: 0 0 10px #0486f0, 0 0 20px #0486f0;
+    transform: translateY(-4px);
+    transition: transform 0.2s, box-shadow 0.3s, border 0.3s;
+}
+
+/* @keyframes neonPulse {
+  from {
+    box-shadow: 0 0 8px #ff3c78, 0 0 16px #ff3c78;
+  }
+  to {
+    box-shadow: 0 0 18px #ff3c78, 0 0 36px #ff3c78;
+  }
+} */
+
+/* ==================== Carduri ==================== */
+.card {
+  position: relative;
+  border-radius: 16px;
+  padding: 50px;
+  margin: 10px 0;
+  background: #1a1a1a;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s, border 0.3s;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(68, 255, 0);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 5px rgb(68, 255, 0), 0 0 10px rgb(68, 255, 0);
+}
+
+.card.selected {
+  border: 3px solid #ff0000;
+  box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
+}
+
+.card input[type="checkbox"] {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 26px;
+  height: 26px;
+  accent-color: #00ff9d;
+  cursor: pointer;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffff00;
+}
+
+/* ==================== Extras Cards ==================== */
+.extras-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ==================== Payment Cards ==================== */
+.payment-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.payment-cards .card {
+  width: 220px;
+  justify-content: center;
+  background: linear-gradient(135deg, #f6004a, #3700ff);
+  color: #0d0d0d;
+}
+
+.payment-cards .card p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(239, 239, 6);
+  
+} 
+
+/* ==================== Total ==================== */
+.total-amount {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 12px;
+  /* color: #ffff00; */
+}
+
+/* ==================== Buton Trimite ==================== */
+.reservation-form-neon button[type="submit"] {
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: none;
+  background: yellow;
+  color: #0d0d0d;
+  cursor: pointer;
+  /* border: 2px solid rgb(4, 248, 28); */
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.reservation-form-neon button[type="submit"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px #00ff9d, 0 0 10px #ff3c78;
+  box-shadow: 0 0 15px 5px rgb(246, 255, 0);
+  /* border: 2px solid rgb(244, 4, 248); */
+  color: black;
+}
+
+/* ==================== Responsive ==================== */
+@media (max-width: 600px) {
+  .extras-cards,
+  .payment-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .children-counter {
+    gap: 8px;
+  }
+
+  .children-counter button {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+}
+
+button[type="submit"] {
+  margin-top: 20px; 
+  /* display: block;    */
+  width: fit-content; 
+  padding: 20px 20px; 
+  /* background-color: #ff3c78; */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 60, 120, 0.5);
+}
+
+/* Titlu Data & Ora */
+.datetime-title {
+  /* font-family: 'Luckiest Guy', cursive; */
+  font-size: 1.6rem;
+  color: #ff3c78;
+  text-align: center;
+  margin-bottom: 12px;
+  /* text-shadow: 0 0 6px #ff3c78, 0 0 12px #ff3c78; */
+}
+
+/* Container Data + Ora */
+/* .datetime-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 1;
+  justify-content: space-between;
+  gap: 30px;
+  background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+  border-radius: 16px;
+  padding: 30px;
+  border: 3px solid #9c27b0; 
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  flex-wrap: wrap;
+  
+} */
+
+.datetime-container {
+  display: flex;
+  flex-direction: column; /* stivuim vertical */
+  align-items: center;    /* centru conținut */
+  gap: 14px;
+  z-index: 1;
+  width: 100%;            /* ocupă toată lățimea containerului */
+  background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+  border-radius: 16px;
+  padding: 30px;
+  border: 3px solid #9c27b0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+
+/* Hover Neon */
+.datetime-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px #9c27b0;
+}
+
+.date-picker-wrapper,
+.time-picker-wrapper {
+  width: 90%; /* ocupă aproape tot containerul */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centru */
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.date-picker-wrapper label,
+.time-picker-wrapper label {
+  text-align: center;
+  width: 100%;
+  color: #ff0090;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.date-picker-wrapper input,
+.time-picker-wrapper select {
+  width: 100%; /* ocupă toată lățimea wrapper-ului */
+  text-align: center;
+}
+
+
+/* DatePicker */
+.date-picker-wrapper .react-datepicker-wrapper {
+  width: 90%;
+}
+
+
+/* Forțează popper-ul datepicker să fie deasupra altor elemente */
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}
+
+/* Ajustează poziționarea ca să nu sară sub alte carduri */
+.datetime-container {
+  position: relative; 
+}
+
+@keyframes popupFade {
+  0% { transform: translate(-50%, -50%) scale(0.5); opacity: 0; }
+  50% { transform: translate(-50%, -50%) scale(1.1); opacity: 1; }
+  100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+
+
+/* BUTON rezerva */
+.reservation-submit-btn {
+  display: block;
+  margin: 20px auto 0 auto; /* centrat pe orizontală */
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: none;
+  background: yellow;
+  color: #0d0d0d;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.reservation-submit-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px #00ff9d, 0 0 10px #ff3c78;
+}
+
+/* //////////////////////////// */
+.your-message {
+  text-align: center;
+}

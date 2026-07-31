@@ -1,0 +1,189 @@
+/* ==================== BODY PAGINA ==================== */
+.despre-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* CENTRAT pe orizontală */
+  padding: 100px 20px 50px 20px;
+  background: #0d0d0d;
+  color: #fff;
+  font-family: 'Fredoka', sans-serif;
+  background-image: url();
+  
+}
+
+.img-despre {
+  width: 80%;
+  border-radius: 30px;
+  /* border: 5px solid red; */
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 10px rgb(5, 195, 243);
+}
+
+/* ////////////////////////////////////poveste despre */
+
+.poveste-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.poveste-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.poveste-text h2 {
+  font-size: 3rem;
+  color: #e1ed08;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.poveste-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.poveste-img {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.poveste-img img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 157, 0.3);
+}
+
+
+/* ==================== SECȚIUNEA VALORI ==================== */
+.despre-valori {
+  text-align: center;
+  /* margin: 50px 0; */
+}
+
+.valori-title {
+  font-size: 3rem;
+  color: #00e5ff;
+  margin-bottom: 30px;
+}
+
+.valori-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.valori-card {
+  background: #0d0d0d;
+  border: 2px solid #00ff9d;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.valori-card:hover {
+  transform: translateY(-10px);
+  border-color: #ff3c78;
+}
+
+.valori-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.valori-card h3 {
+  color: #ffb300;
+  margin-bottom: 10px;
+  /* font-weight: 300; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.valori-card p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* ==================== SECȚIUNEA ECHIPA ==================== */
+.despre-echipa {
+  text-align: center;
+  /* margin: 50px 0;
+  background-color: red; */
+  padding: 3rem 2rem;
+  position: relative;
+  top: 30px;
+  border: 3px solid white;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 25px;
+  background: rgba(0, 229, 255, 0.05); /* gradient / nuanță subtilă */
+  box-shadow: 0 0 10px 5px rgba(7, 128, 221, 0.862);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.despre-echipa:hover {
+  box-shadow: 0 0 10px 5px rgba(221, 7, 221, 0.862);
+  /* transform: scale(1.1); */
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  transform: translateY(-10px);
+}
+
+.echipa-title {
+  font-size: 2.5rem;
+  color: #ff3c78;
+  margin-bottom: 30px;
+}
+
+.echipa-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.echipa-member {
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.echipa-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  object-fit: cover;
+  border: 3px solid #ff3c78;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.echipa-member:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #00ff9d, 0 0 10px #00ff9d;
+}
+
+.echipa-member h3 {
+  font-size: 1.2rem;
+  color: #00e5ff;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.echipa-member p {
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+/* 
+.despre-noi {
+  font-size: 25px;
+  padding-bottom: 50px;
+} */

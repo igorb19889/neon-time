@@ -1,0 +1,537 @@
+
+/* .galerie-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.galerie-container h2 {
+  font-size: 3.2rem;
+  color: #ff3c78;
+  margin-bottom: 2rem;
+} */
+
+/* Filtre neon */
+/* .galerie-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  background-color: #0d0d0d;
+  border: 2px solid;
+  padding: 0.5rem 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px currentColor;
+}
+
+.filter-btn.active {
+  background-color: currentColor;
+  color: #0d0d0d;
+  box-shadow: 0 0 20px currentColor;
+} */
+
+/* Masonry grid */
+/* .galerie-masonry {
+  column-count: 3;
+  column-gap: 1rem;
+}
+
+.galerie-card {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+  border: 3px solid;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.galerie-card img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.galerie-card:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 0 20px currentColor;
+} */
+
+/* /////////////////////////////////////////////////////// */
+/* Conținut Lightbox centrat */
+/* .lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+} */
+
+/* X-ul de închidere */
+/* .lightbox .close {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1001;
+} */
+
+ /* { src: '/images/galerie/1.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/2.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/3.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/4.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/5.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/6.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/7.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/8.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/9.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/10.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/11.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/12.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/13.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/14.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/15.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/16.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/17.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/18.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/19.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/20.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/21.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/22.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/23.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/24.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/25.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/26.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/27.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/28.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/29.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/30.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/31.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/32.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/33.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/34.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/35.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/36.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/37.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/38.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/39.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/40.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/41.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/42.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/43.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/44.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/45.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/46.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/47.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/48.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/49.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/50.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/51.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/52.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/53.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/54.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/55.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/56.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/57.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/58.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/59.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/60.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/61.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/62.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/63.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/64.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/65.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/66.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/67.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/68.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/69.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/70.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/71.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/72.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/73.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/74.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/75.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/76.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/77.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/78.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/79.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/80.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/81.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/81.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/82.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/83.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/84.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/85.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/86.jpg'  , category: 'Tematice'  },
+  { src: '/images/galerie/87.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/88.jpg'  , category: 'Petreceri' },
+  { src: '/images/galerie/89.jpg'  , category: 'Decoruri'  },
+  { src: '/images/galerie/90.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/91.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/92.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/93.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/94.jpg' , category: 'Petreceri' },
+  { src: '/images/galerie/95.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/96.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/97.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/98.jpg' , category: 'Tematice'  },
+  { src: '/images/galerie/99.jpg' , category: 'Decoruri'  },
+  { src: '/images/galerie/100.jpg' , category: 'Tematice'  },
+ */
+
+/* Conținut Lightbox */
+/* .lightbox-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1200px;
+} */
+
+/* Imagine */
+/* .lightbox-content img {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 12px;
+  object-fit: contain;
+} */
+
+/* Săgeți lateral */
+/* .lightbox .prev,
+.lightbox .next {
+  font-size: 3rem;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001;
+} */
+
+/* .lightbox .prev { left: -3rem; }
+.lightbox .next { right: -3rem; }
+
+.lightbox .prev:hover,
+.lightbox .next:hover {
+  background: rgba(0,0,0,0.6);
+} */
+
+
+/* Puls neon */
+/* @keyframes neonPulse {
+  0%, 100% { text-shadow: 0 0 5px currentColor, 0 0 10px currentColor; }
+  50% { text-shadow: 0 0 15px currentColor, 0 0 30px currentColor; }
+} */
+
+/* X-ul de închidere neon */
+/* .lightbox .close {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  color: #ff3c78; 
+  cursor: pointer;
+  z-index: 1001; */
+  /* animation: neonPulse 1.5s infinite alternate; */
+/* } */
+
+/* Săgeți neon */
+/* .lightbox .prev,
+.lightbox .next {
+  font-size: 3rem;
+  color: #00ff9d; 
+  background: rgba(0,0,0,0.3);
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001; */
+  /* animation: neonPulse 1.5s infinite alternate; */
+/* } */
+
+/* .lightbox .prev:hover,
+.lightbox .next:hover {
+  background: rgba(0,0,0,0.6);
+} */
+/* //////////////////////////////////////////// */
+
+/* Base gallery layout (you might already have these - keep or merge) */
+.galerie-container {
+  padding: 28px;
+  color: #eef205;
+  background: linear-gradient(180deg, #07070a 0%, #0a0a0d 100%);
+  font-family: 'Fredoka', sans-serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+.galerie-filters {
+  display: flex;
+  justify-content: center; /* centrăm pe orizontală */
+  align-items: center;     /* aliniem vertical */
+  gap: 12px;               /* spațiu între butoane */
+  flex-wrap: wrap;         /* se mută pe linie nouă pe mobil */
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.2rem;
+  border: 2px solid;
+  border-radius: 12px;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 90px 20px rgba(0,0,0,0.6), 0 0 10px currentColor;
+}
+
+.filter-btn.active {
+  background: linear-gradient(45deg, #ff3c78, #9c27b0, #00e5ff, #00ff9d, #ffff00);
+  color: #000;
+  border: none;
+  /* box-shadow: 0 0 12px #fff; */
+  box-shadow: 0 12px 30px rgba(243, 4, 4, 0.6);
+}
+
+
+/* Masonry / cards */
+.galerie-masonry {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+
+.galerie-card {
+  border: 3px solid rgba(255,255,255,0.02);
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  cursor: pointer;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.galerie-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.6), 0 0 26px currentColor;
+}
+.galerie-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* LIGHTBOX */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(2,2,6,0.75);
+  overflow: hidden;
+   background-color: black !important;
+}
+
+/* soft neon fog layers */
+.neon-fog {
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  border-radius: 40%;
+  filter: blur(40px) saturate(1.2);
+  opacity: 0.18;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  animation: fogFloat 6s ease-in-out infinite;
+}
+.neon-fog.fog-1 { left: 4%; top: 10%; background: linear-gradient(90deg, rgba(255,60,120,0.95), rgba(156,39,176,0.85)); transform: scale(1); }
+.neon-fog.fog-2 { right: 6%; top: 18%; background: linear-gradient(90deg, rgba(0,229,255,0.9), rgba(0,255,157,0.85)); transform: scale(0.9); animation-duration: 8s; }
+.neon-fog.fog-3 { left: 30%; bottom: 6%; background: linear-gradient(90deg, rgba(255,250,0,0.9), rgba(255,60,120,0.6)); transform: scale(0.75); animation-duration: 10s; }
+
+@keyframes fogFloat {
+  0% { transform: translateY(0) scale(1); opacity: 0.16; }
+  50% { transform: translateY(-12px) scale(1.03); opacity: 0.22; }
+  100% { transform: translateY(0) scale(1); opacity: 0.16; }
+}
+
+/* lightbox content wrapper */
+.lightbox-content {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: 92%;
+  width: 100%;
+  justify-content: center;
+  padding: 12px;
+}
+
+/* image area */
+.image-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 86vw;
+  max-height: 80vh;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.12));
+  border-radius: 14px;
+  padding: 8px;
+  box-shadow: 0 0 50px 15px rgba(240, 3, 137, 0.8);
+  overflow: hidden;
+}
+
+/* image with smooth transform */
+.lightbox-img {
+  max-width: 80vw;
+  max-height: 76vh;
+  border-radius: 10px;
+  transition: transform 280ms cubic-bezier(.2,.9,.3,1), opacity 220ms ease;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  display: block;
+}
+
+/* swipe direction small translate to hint motion */
+.lightbox-img.swipe-next {
+  transform: translateX(-16px) scale(0.995);
+  opacity: 0.95;
+}
+.lightbox-img.swipe-prev {
+  transform: translateX(16px) scale(0.995);
+  opacity: 0.95;
+}
+
+/* neon trail that follows finger */
+.neon-trail {
+  position: fixed;
+  width: 110px;
+  height: 28px;
+  transform: translate(-50%, -50%) rotate(0deg);
+  pointer-events: none;
+  z-index: 9998;
+  mix-blend-mode: screen;
+  border-radius: 999px;
+  filter: blur(6px) saturate(1.2);
+  opacity: 0.95;
+  animation: trailPulse 0.9s ease-out;
+}
+/* multicolor gradient for trail and small skew for motion */
+.neon-trail::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg,
+    rgba(255,60,120,0.95),
+    rgba(156,39,176,0.9),
+    rgba(0,229,255,0.95),
+    rgba(0,255,157,0.9),
+    rgba(255,250,0,0.95)
+  );
+  transform: skewX(-12deg);
+  box-shadow: 0 0 18px rgba(255,60,120,0.7), 0 0 42px rgba(0,229,255,0.6);
+}
+
+/* direction classes add a little motion/rotation for effect */
+.neon-trail.dir-left {
+  transform: translate(-50%, -50%) rotate(-8deg) scale(1.05);
+}
+.neon-trail.dir-right {
+  transform: translate(-50%, -50%) rotate(8deg) scale(1.05);
+}
+
+@keyframes trailPulse {
+  0% { opacity: 0.0; transform: translate(-50%, -50%) scale(0.95); }
+  30% { opacity: 0.95; transform: translate(-50%, -50%) scale(1.05); }
+  100% { opacity: 0.0; transform: translate(-50%, -50%) scale(1.15); }
+}
+
+/* Prev / Next buttons (desktop) */
+.prev, .next {
+  font-size: 2.6rem;
+  line-height: 1;
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+  border: 2px solid rgba(255,255,255,0.04);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s;
+  z-index: 6;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+}
+.prev:hover, .next:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.7), 0 0 20px rgba(255,255,255,0.06);
+}
+
+/* X close button */
+.close {
+  position: fixed;
+  top: 15px;
+  right: 22px;
+  font-size: 2.4rem;
+  color: #fff;
+  z-index: 6;
+  background: rgba(0,0,0,0.28);
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.06);
+  cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s;
+}
+.close:hover {
+  transform: scale(1.06) rotate(6deg);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.7), 0 0 16px rgba(255,255,255,0.06);
+}
+
+/* Responsive: hide arrows on mobile, keep swipe */
+@media (max-width: 768px) {
+  .prev, .next {
+    display: none;
+  }
+  .neon-trail {
+    width: 88px;
+    height: 22px;
+    filter: blur(5px);
+  }
+  .lightbox-img {
+    max-width: 95vw;
+    max-height: 70vh;
+  }
+}
+
+/* small polish: focus/keyboard nav */
+.prev:focus, .next:focus, .close:focus { outline: none; box-shadow: 0 0 0 3px rgba(255,60,120,0.12); }
+
+/* tiny helper for glowing current card on active filters */
+.filter-btn.active { box-shadow: 0 0 18px rgba(255,60,120,0.08); }
